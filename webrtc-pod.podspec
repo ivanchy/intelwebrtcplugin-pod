@@ -12,9 +12,11 @@ Pod::Spec.new do |spec|
   spec.author       = "test"
   spec.platform       = :ios
 
-  spec.source       = { :http => "https://hkt.softether.net/gitlab/IvanChiu/intelwebrtcplugin_ios/-/raw/main/src/ios/libs/WebRTC_arm64release.framework.zip" }
+  spec.source       = { :http => "https://hkt.softether.net/gitlab/IvanChiu/intelwebrtcplugin_ios/-/raw/main/src/ios/libs/WebRTC_arm64release.framework.zip?inline=false" }
   spec.vendored_frameworks = "WebRTC.framework"
   
   spec.requires_arc = true
   
 end
+
+
