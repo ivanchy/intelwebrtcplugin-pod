@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "WebRTC-pod"
+  spec.name         = "webrtc-pod"
   spec.version      = "1.0.0"
   spec.summary      = "Unofficial distribution of WebRTC framework binaries for iOS. "
   spec.description  = <<-DESC
